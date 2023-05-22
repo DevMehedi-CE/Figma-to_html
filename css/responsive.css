@@ -1,0 +1,536 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  /* ===========
+    NAVBAR RESPONSIVE START
+    ============ */
+
+  label {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding: 20px;
+  }
+
+  nav input:checked ~ .menu {
+    display: block;
+  }
+
+  nav {
+    padding: 20px;
+    text-align: center;
+  }
+  .menu_wrapper {
+    flex-direction: column;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .menu {
+    width: 100%;
+    display: none;
+  }
+
+  .nav_btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ===========
+    NAVBAR RESPONSIVE END
+    ============ */
+
+  /* ===========
+    BANNER RESPONSIVE START
+    ============ */
+
+  .banner_shape_one {
+    display: none;
+  }
+
+  .banner_container h1 {
+    margin-top: 50px;
+    font-size: 38px;
+    line-height: 40px;
+    padding: 0 0;
+  }
+
+  .banner_container p {
+    margin-top: 13px;
+
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 0;
+  }
+
+  .banner_btn button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .banner_shape_two {
+    bottom: 50px;
+    right: 10px;
+  }
+
+  .banner_btn button:last-child {
+    margin-right: 28px;
+    margin-top: 15px;
+  }
+
+  /* ===========
+    BANNER RESPONSIVE END
+    ============ */
+
+  /* ===========
+    COUNTING RESPONSIVE START
+    ============ */
+
+  #count {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  .count_wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .count_item {
+    width: 100%;
+  }
+
+  .count_item h4 {
+    font-size: 34px;
+  }
+  .count_item p {
+    font-size: 24px;
+    margin-top: 8px;
+  }
+
+  .count_item::after {
+    display: none;
+  }
+
+  /* ===========
+    COUNTING RESPONSIVE END
+    ============ */
+
+  /* ===========
+    ABOUT RESPONSIVE START
+    ============ */
+
+  .shaptwo {
+    display: none;
+  }
+
+  .abour_wrapper {
+    flex-direction: column;
+    padding: 0 0;
+  }
+
+  .about_left {
+    width: 100%;
+  }
+
+  .about_right {
+    width: 100%;
+  }
+
+  .inner_wrapper {
+    padding: 0 0 0 0;
+    display: none;
+  }
+
+  .inner_icon {
+    width: 10%;
+    text-align: left;
+  }
+
+  .inner_content {
+    width: 90%;
+    text-align: right;
+  }
+
+  .about_right h3 {
+    font-size: 38px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .about_right p {
+    padding: 0 0 0 0;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+  }
+
+  .about_btn {
+    margin-top: 22px;
+  }
+
+  #about {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  /* ===========
+    ABOUT RESPONSIVE END
+    ============ */
+
+  /* ===========
+    ITEM RESPONSIVE END
+    ============ */
+
+  #item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #item .item_wrapper {
+    flex-direction: column;
+  }
+
+  #item .category:first-child {
+    text-align: center;
+    padding: 0 0;
+  }
+
+  #create .item_wrapper .item1 .content h3 {
+    margin-bottom: 20px;
+    padding: 0 0 0 0;
+  }
+
+  #item .category:first-child h2 {
+    font-size: 35px;
+  }
+
+  #item .category:first-child p {
+    margin-top: 24px;
+  }
+
+  #item .category {
+    width: 100%;
+
+    margin: 12px 0;
+    border-radius: 20px;
+    padding: 24px 25px;
+    text-align: center;
+  }
+
+  #item .category h2 {
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+  }
+
+  #item .category p {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  /* ===========
+    ITEM RESPONSIVE END
+    ============ */
+
+  /* ===========
+    CREATE RESPONSIVE START
+    ============ */
+
+  #create .shape2 {
+    top: 280px;
+    right: 40px;
+    /* animation: mehedi 3s alternate-reverse; */
+  }
+  /* 
+  @keyframes mehedi {
+    0% {
+      left: 0px;
+      right: 0px;
+    }
+    25% {
+      left: 100px;
+      right: 0px;
+    }
+    50% {
+      left: 100px;
+      right: 100px;
+    }
+    75% {
+      left: 0px;
+      right: 100px;
+    }
+    100% {
+      left: 0px;
+      right: 0px;
+    }
+  }*/
+
+  #create .real h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  #create .real p {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 0;
+  }
+
+  #create .item_wrapper {
+    flex-direction: column;
+  }
+
+  #create .item_wrapper .item1 .analysis {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+
+  #create .item_wrapper .item1 .img {
+    width: 100%;
+    text-align: center;
+  }
+
+  #create .item_wrapper .item1 .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  #create .item_wrapper .item2 {
+    display: none;
+  }
+
+  /* ===========
+    CREATE RESPONSIVE END
+    ============ */
+
+  /* ===========
+    PLAN RESPONSIVE START
+    ============ */
+
+  #plan {
+    padding: 20px 0;
+    background: #f9f9fb;
+    margin-top: 20px;
+  }
+
+  #plan .basic picture {
+    width: 100%;
+  }
+
+  #plan .basic picture img {
+    width: 100%;
+  }
+
+  #plan .container h2 {
+    font-size: 28px;
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 44px;
+  }
+
+  #plan .plan_wrapper {
+    flex-direction: column;
+  }
+
+  #plan .plan_wrapper .basic {
+    width: 100%;
+    height: 450px;
+    margin: 10px 0;
+  }
+
+  #plan .plan_wrapper .basic h1 {
+    font-size: 24px;
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #plan .plan_wrapper .basic h2 {
+    font-size: 28px;
+  }
+
+  #plan .plan_wrapper .basic p {
+    line-height: 26px;
+    padding: 0 0;
+  }
+  /* ===========
+    PLAN RESPONSIVE END
+    ============ */
+
+  /* ===========
+    THINK RESPONSIVE START
+    ============ */
+
+  #thinks {
+    padding: 10px 0;
+    display: none;
+  }
+
+  #thinks .container .main h3 {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+
+  #thinks .container .cd {
+    height: 200px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* ===========
+    THINK RESPONSIVE END
+    ============ */
+  /* ===========
+    LIKE RESPONSIVE SRART
+    ============ */
+
+  #like {
+    padding: 50px 0;
+  }
+
+  .container_like h1 {
+    font-size: 30px;
+  }
+
+  .like__item {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .like__item .left-side {
+    width: 100%;
+    margin-bottom: -42px;
+  }
+  .like__item .left-side img {
+    width: 100%;
+  }
+
+  .like__item .right-side {
+    height: 255px;
+    width: 100%;
+  }
+
+  .down-menu ul {
+    gap: 12px;
+    margin-bottom: 15px;
+  }
+
+  .right-side h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 22px;
+    text-align: center;
+  }
+
+  .right-side .last_btn {
+    text-align: center;
+  }
+
+  /* ===========
+    LIKE RESPONSIVE END
+    ============ */
+
+  /* ===========
+    SUPPORT RESPONSIVE START
+    ============ */
+
+  #support {
+    padding-top: 58px;
+  }
+
+  #support .main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #support .main .demo {
+    width: 100%;
+  }
+
+  #support .main .demo img {
+    margin-left: 0;
+  }
+
+  #support .main .demo p {
+    margin-top: 24px;
+    line-height: 130%;
+    padding: 0 0;
+  }
+
+  #support .main .demo h4 {
+    margin-top: 22px;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  #support .main .features {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  #support .main .features ul li {
+    margin: 8px 0;
+  }
+
+  #support .main .products {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #support .main .products ul li {
+    margin: 8px 0;
+  }
+
+  #support .main .products p {
+    display: none;
+  }
+
+  #support .main .support {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #support .main .support ul li {
+    margin: 8px 0;
+  }
+
+  #support .main .support p {
+    text-align: center;
+    margin-top: 48px;
+    margin-right: 0;
+  }
+
+  /* ===========
+    SUPPORT RESPONSIVE END
+    ============ */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
